@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="051bb09e-ea04-46d7-a245-b3757c62a704" name="online" url="http://ilink-app.com/">
+        <fileTransfer host="ilink-app.com" port="21" rootFolder="/app/" username="phpstorm@ilink-app.com">
+          <advancedOptions>
+            <advancedOptions compatibilityMode="true" dataProtectionLevel="Private" forceListCommand="true" showHiddenFiles="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
