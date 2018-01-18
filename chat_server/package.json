@@ -1,0 +1,26 @@
+{
+  "name": "ilink-chat",
+  "version": "1.0.0",
+  "description": "A chat server for my apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Capp Andy MIGOUMBI AKENDENGUE",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^2.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andyakendegue/chat_server.git"
+  },
+  "keywords": [
+    "chat",
+    "server"
+  ],
+  "bugs": {
+    "url": "https://github.com/andyakendegue/chat_server/issues"
+  }
+}

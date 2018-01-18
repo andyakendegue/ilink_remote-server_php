@@ -6,29 +6,50 @@
  * Time: 13:48
  */
 
+if (isset($_SERVER['HTTP_ORIGIN'])) {
+    header("Access-Control-Allow-Origin: {$_SERVER['HTTP_ORIGIN']}");
+    header('Access-Control-Allow-Credentials: true');
+    header('Access-Control-Max-Age: 86400');    // cache for 1 day
+}
 
-$host='localhost';
-$uname='ilink';
-$pwd='ilink2016GA';
-$db="ilink";
+// Access-Control headers are received during OPTIONS requests
 
-$country = $_POST['country'];
-$con = mysqli_connect($host,$uname,$pwd,$db) or die("connection failed");
+if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
 
+    if (isset($_SERVER['HTTP_ACCESS_CONTROL_REQUEST_METHOD']))
+        header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
 
-//$id=$_POST['id'];
-$r=mysqli_query($con,"select * from network where `Reseau` = '$country'");
-while($row=mysqli_fetch_array($r, MYSQLI_ASSOC ))
-{
-    //$flag[name]=$row[name];
-    if ($row!="" || !is_null($row)) {
-        $rows[] = $row;
-    }
+    if (isset($_SERVER['HTTP_ACCESS_CONTROL_REQUEST_HEADERS']))
+        header("Access-Control-Allow-Headers:        {$_SERVER['HTTP_ACCESS_CONTROL_REQUEST_HEADERS']}");
 
-
-    //print_r($rows);
+    exit(0);
+    
 }
 
 
-print(json_encode($rows));
+$host='localhost';
+$uname='root';
+$pwd='vps@2017GA';
+$db="ilink";
+
+$postdata = file_get_contents("php://input");
+
+if(isset($postdata)) {
+  
+    $request = json_decode($postdata);
+}
+
+$country = $request->country_code;
+
+$con = mysqli_connect($host,$uname,$pwd,$db) or die("connection failed");
+
+$r=mysqli_query($con,"select * from network where `Reseau` = '$country'");
+
+while($row=mysqli_fetch_array($r, MYSQLI_ASSOC )) {
+
+    $rows[] = $row;
+
+}
+
+echo json_encode($rows);
 mysqli_close($con);

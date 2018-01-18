@@ -21,6 +21,8 @@
 
     // Step 1: Get the Twilio-PHP library from twilio.com/docs/libraries/php,
     // following the instructions to install it with Composer.
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
     require_once "vendor/autoload.php";
     use Twilio\Rest\Client;
 
@@ -42,7 +44,8 @@
     $people = array(
         "+24105609191" => "Mr Jacques",
         "+24104645969" => "capp",
-        "+24102874963" => "andy"
+        "+24102874963" => "andy",
+        "+24105609201" => "andy"
 
     );
 

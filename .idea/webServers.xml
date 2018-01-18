@@ -2,10 +2,10 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="051bb09e-ea04-46d7-a245-b3757c62a704" name="online" url="http://ilink-app.com/">
-        <fileTransfer host="ilink-app.com" port="21" rootFolder="/app/" username="phpstorm@ilink-app.com">
+      <webServer id="25ceb8fc-d18c-4d8a-8185-9616e9500a15" name="ilink_remote" url="http://ilink-app.com">
+        <fileTransfer host="ilink-app.com" port="22" accessType="SFTP" password="dfdcdfdadfd9dfeadf98df9adf9bdf9ddfeddfeb" username="ilink">
           <advancedOptions>
-            <advancedOptions compatibilityMode="true" dataProtectionLevel="Private" forceListCommand="true" showHiddenFiles="true" />
+            <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
         </fileTransfer>
       </webServer>

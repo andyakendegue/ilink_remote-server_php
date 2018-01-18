@@ -11,6 +11,7 @@ namespace Twilio\Rest\Api\V2010\Account;
 
 use Twilio\InstanceContext;
 use Twilio\Options;
+use Twilio\Serialize;
 use Twilio\Values;
 use Twilio\Version;
 
@@ -19,20 +20,20 @@ class IncomingPhoneNumberContext extends InstanceContext {
      * Initialize the IncomingPhoneNumberContext
      * 
      * @param \Twilio\Version $version Version that contains the resource
-     * @param string $ownerAccountSid The owner_account_sid
+     * @param string $accountSid The account_sid
      * @param string $sid Fetch by unique incoming-phone-number Sid
      * @return \Twilio\Rest\Api\V2010\Account\IncomingPhoneNumberContext 
      */
-    public function __construct(Version $version, $ownerAccountSid, $sid) {
+    public function __construct(Version $version, $accountSid, $sid) {
         parent::__construct($version);
-        
+
         // Path Solution
         $this->solution = array(
-            'ownerAccountSid' => $ownerAccountSid,
+            'accountSid' => $accountSid,
             'sid' => $sid,
         );
-        
-        $this->uri = '/Accounts/' . rawurlencode($ownerAccountSid) . '/IncomingPhoneNumbers/' . rawurlencode($sid) . '.json';
+
+        $this->uri = '/Accounts/' . rawurlencode($accountSid) . '/IncomingPhoneNumbers/' . rawurlencode($sid) . '.json';
     }
 
     /**
@@ -43,7 +44,7 @@ class IncomingPhoneNumberContext extends InstanceContext {
      */
     public function update($options = array()) {
         $options = new Values($options);
-        
+
         $data = Values::of(array(
             'AccountSid' => $options['accountSid'],
             'ApiVersion' => $options['apiVersion'],
@@ -56,24 +57,27 @@ class IncomingPhoneNumberContext extends InstanceContext {
             'StatusCallback' => $options['statusCallback'],
             'StatusCallbackMethod' => $options['statusCallbackMethod'],
             'VoiceApplicationSid' => $options['voiceApplicationSid'],
-            'VoiceCallerIdLookup' => $options['voiceCallerIdLookup'],
+            'VoiceCallerIdLookup' => Serialize::booleanToString($options['voiceCallerIdLookup']),
             'VoiceFallbackMethod' => $options['voiceFallbackMethod'],
             'VoiceFallbackUrl' => $options['voiceFallbackUrl'],
             'VoiceMethod' => $options['voiceMethod'],
             'VoiceUrl' => $options['voiceUrl'],
+            'EmergencyStatus' => $options['emergencyStatus'],
+            'EmergencyAddressSid' => $options['emergencyAddressSid'],
+            'TrunkSid' => $options['trunkSid'],
         ));
-        
+
         $payload = $this->version->update(
             'POST',
             $this->uri,
             array(),
             $data
         );
-        
+
         return new IncomingPhoneNumberInstance(
             $this->version,
             $payload,
-            $this->solution['ownerAccountSid'],
+            $this->solution['accountSid'],
             $this->solution['sid']
         );
     }
@@ -85,17 +89,17 @@ class IncomingPhoneNumberContext extends InstanceContext {
      */
     public function fetch() {
         $params = Values::of(array());
-        
+
         $payload = $this->version->fetch(
             'GET',
             $this->uri,
             $params
         );
-        
+
         return new IncomingPhoneNumberInstance(
             $this->version,
             $payload,
-            $this->solution['ownerAccountSid'],
+            $this->solution['accountSid'],
             $this->solution['sid']
         );
     }

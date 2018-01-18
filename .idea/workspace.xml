@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8219ef02-e08b-4b8c-be17-6dac90c9a5cd" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/SandboxContext.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/SandboxInstance.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/SandboxList.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/SandboxOptions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/SandboxPage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/SandboxTest.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webServers.xml" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/DB_Functions.php" afterPath="$PROJECT_DIR$/include/DB_Functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/select/accept_membre.php" afterPath="$PROJECT_DIR$/select/accept_membre.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/select/delete.php" afterPath="$PROJECT_DIR$/select/delete.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/select/network.php" afterPath="$PROJECT_DIR$/select/network.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/select/validation.php" afterPath="$PROJECT_DIR$/select/validation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/select/validation_simple.php" afterPath="$PROJECT_DIR$/select/validation_simple.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/.travis.yml" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/AUTHORS.md" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/AUTHORS.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/CHANGES.md" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/CHANGES.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Makefile" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/README.md" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Deserialize.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Deserialize.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Http/CurlClient.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Http/CurlClient.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Http/Response.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Http/Response.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/InstanceResource.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/InstanceResource.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Jwt/Grants/ConversationsGrant.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Jwt/Grants/ConversationsGrant.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Jwt/Grants/VideoGrant.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Jwt/Grants/VideoGrant.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Address/DependentPhoneNumberInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Address/DependentPhoneNumberInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Address/DependentPhoneNumberList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Address/DependentPhoneNumberList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Address/DependentPhoneNumberPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Address/DependentPhoneNumberPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AddressContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AddressContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AddressInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AddressInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AddressList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AddressList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AddressOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AddressOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AddressPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AddressPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ApplicationContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ApplicationContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ApplicationInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ApplicationInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ApplicationList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ApplicationList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ApplicationOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ApplicationOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ApplicationPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ApplicationPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AuthorizedConnectAppContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AuthorizedConnectAppContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AuthorizedConnectAppInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AuthorizedConnectAppInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AuthorizedConnectAppList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AuthorizedConnectAppList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AuthorizedConnectAppPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AuthorizedConnectAppPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AvailablePhoneNumberCountry/LocalInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AvailablePhoneNumberCountry/LocalInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AvailablePhoneNumberCountry/LocalList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AvailablePhoneNumberCountry/LocalList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AvailablePhoneNumberCountry/LocalOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AvailablePhoneNumberCountry/LocalOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AvailablePhoneNumberCountry/LocalPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AvailablePhoneNumberCountry/LocalPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AvailablePhoneNumberCountry/MobileInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AvailablePhoneNumberCountry/MobileInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AvailablePhoneNumberCountry/MobileList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AvailablePhoneNumberCountry/MobileList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AvailablePhoneNumberCountry/MobileOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AvailablePhoneNumberCountry/MobileOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AvailablePhoneNumberCountry/MobilePage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AvailablePhoneNumberCountry/MobilePage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AvailablePhoneNumberCountry/TollFreeInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AvailablePhoneNumberCountry/TollFreeInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AvailablePhoneNumberCountry/TollFreeList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AvailablePhoneNumberCountry/TollFreeList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AvailablePhoneNumberCountry/TollFreeOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AvailablePhoneNumberCountry/TollFreeOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AvailablePhoneNumberCountry/TollFreePage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AvailablePhoneNumberCountry/TollFreePage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AvailablePhoneNumberCountryContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AvailablePhoneNumberCountryContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AvailablePhoneNumberCountryInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AvailablePhoneNumberCountryInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AvailablePhoneNumberCountryList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AvailablePhoneNumberCountryList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AvailablePhoneNumberCountryPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/AvailablePhoneNumberCountryPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/FeedbackContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/FeedbackContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/FeedbackInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/FeedbackInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/FeedbackList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/FeedbackList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/FeedbackPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/FeedbackPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/FeedbackSummaryContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/FeedbackSummaryContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/FeedbackSummaryInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/FeedbackSummaryInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/FeedbackSummaryList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/FeedbackSummaryList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/FeedbackSummaryOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/FeedbackSummaryOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/FeedbackSummaryPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/FeedbackSummaryPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/NotificationContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/NotificationContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/NotificationInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/NotificationInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/NotificationList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/NotificationList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/NotificationOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/NotificationOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/NotificationPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/NotificationPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/RecordingContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/RecordingContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/RecordingInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/RecordingInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/RecordingList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/RecordingList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/RecordingPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Call/RecordingPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/CallContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/CallContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/CallInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/CallInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/CallList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/CallList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/CallOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/CallOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/CallPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/CallPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Conference/ParticipantContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Conference/ParticipantContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Conference/ParticipantInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Conference/ParticipantInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Conference/ParticipantList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Conference/ParticipantList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Conference/ParticipantOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Conference/ParticipantOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Conference/ParticipantPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Conference/ParticipantPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ConferenceContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ConferenceContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ConferenceInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ConferenceInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ConferenceList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ConferenceList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ConferenceOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ConferenceOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ConferencePage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ConferencePage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ConnectAppContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ConnectAppContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ConnectAppInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ConnectAppInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ConnectAppList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ConnectAppList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ConnectAppPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ConnectAppPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumber/LocalInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumber/LocalInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumber/LocalList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumber/LocalList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumber/LocalOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumber/LocalOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumber/LocalPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumber/LocalPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumber/MobileInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumber/MobileInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumber/MobileList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumber/MobileList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumber/MobileOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumber/MobileOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumber/MobilePage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumber/MobilePage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumber/TollFreeInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumber/TollFreeInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumber/TollFreeList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumber/TollFreeList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumber/TollFreeOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumber/TollFreeOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumber/TollFreePage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumber/TollFreePage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumberContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumberContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumberInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumberInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumberList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumberList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumberOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumberOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumberPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/IncomingPhoneNumberPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/KeyContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/KeyContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/KeyInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/KeyInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/KeyList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/KeyList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/KeyPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/KeyPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Message/FeedbackInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Message/FeedbackInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Message/FeedbackList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Message/FeedbackList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Message/FeedbackPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Message/FeedbackPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Message/MediaContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Message/MediaContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Message/MediaInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Message/MediaInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Message/MediaList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Message/MediaList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Message/MediaPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Message/MediaPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessagePage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessagePage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/NewKeyInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/NewKeyInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/NewKeyList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/NewKeyList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/NewKeyPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/NewKeyPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/NewSigningKeyInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/NewSigningKeyInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/NewSigningKeyList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/NewSigningKeyList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/NewSigningKeyPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/NewSigningKeyPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/NotificationContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/NotificationContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/NotificationInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/NotificationInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/NotificationList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/NotificationList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/NotificationOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/NotificationOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/NotificationPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/NotificationPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/OutgoingCallerIdContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/OutgoingCallerIdContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/OutgoingCallerIdInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/OutgoingCallerIdInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/OutgoingCallerIdList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/OutgoingCallerIdList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/OutgoingCallerIdPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/OutgoingCallerIdPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Queue/MemberContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Queue/MemberContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Queue/MemberInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Queue/MemberInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Queue/MemberList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Queue/MemberList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Queue/MemberPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Queue/MemberPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/QueueContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/QueueContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/QueueInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/QueueInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/QueueList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/QueueList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/QueueOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/QueueOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/QueuePage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/QueuePage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Recording/TranscriptionContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Recording/TranscriptionContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Recording/TranscriptionInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Recording/TranscriptionInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Recording/TranscriptionList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Recording/TranscriptionList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Recording/TranscriptionPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Recording/TranscriptionPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/RecordingContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/RecordingContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/RecordingInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/RecordingInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/RecordingList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/RecordingList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/RecordingOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/RecordingOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/RecordingPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/RecordingPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ShortCodeContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ShortCodeContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ShortCodeInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ShortCodeInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ShortCodeList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ShortCodeList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ShortCodePage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ShortCodePage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/SigningKeyContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/SigningKeyContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/SigningKeyInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/SigningKeyInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/SigningKeyList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/SigningKeyList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/SigningKeyPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/SigningKeyPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/CredentialList/CredentialContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/CredentialList/CredentialContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/CredentialList/CredentialInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/CredentialList/CredentialInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/CredentialList/CredentialList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/CredentialList/CredentialList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/CredentialList/CredentialPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/CredentialList/CredentialPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/CredentialListContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/CredentialListContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/CredentialListInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/CredentialListInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/CredentialListList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/CredentialListList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/CredentialListPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/CredentialListPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/Domain/CredentialListMappingContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/Domain/CredentialListMappingContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/Domain/CredentialListMappingInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/Domain/CredentialListMappingInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/Domain/CredentialListMappingList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/Domain/CredentialListMappingList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/Domain/CredentialListMappingPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/Domain/CredentialListMappingPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/Domain/IpAccessControlListMappingContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/Domain/IpAccessControlListMappingContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/Domain/IpAccessControlListMappingInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/Domain/IpAccessControlListMappingInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/Domain/IpAccessControlListMappingList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/Domain/IpAccessControlListMappingList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/Domain/IpAccessControlListMappingPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/Domain/IpAccessControlListMappingPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/DomainContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/DomainContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/DomainInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/DomainInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/DomainList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/DomainList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/DomainPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/DomainPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/IpAccessControlList/IpAddressContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/IpAccessControlList/IpAddressContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/IpAccessControlList/IpAddressInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/IpAccessControlList/IpAddressInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/IpAccessControlList/IpAddressList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/IpAccessControlList/IpAddressList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/IpAccessControlList/IpAddressPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/IpAccessControlList/IpAddressPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/IpAccessControlListContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/IpAccessControlListContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/IpAccessControlListInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/IpAccessControlListInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/IpAccessControlListList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/IpAccessControlListList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/IpAccessControlListPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Sip/IpAccessControlListPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/SipInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/SipInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/SipList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/SipList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/SipPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/SipPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/TokenInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/TokenInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/TokenList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/TokenList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/TokenOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/TokenOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/TokenPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/TokenPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/TranscriptionContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/TranscriptionContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/TranscriptionInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/TranscriptionInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/TranscriptionList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/TranscriptionList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/TranscriptionPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/TranscriptionPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/AllTimeInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/AllTimeInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/AllTimeList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/AllTimeList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/AllTimeOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/AllTimeOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/AllTimePage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/AllTimePage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/DailyInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/DailyInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/DailyList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/DailyList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/DailyOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/DailyOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/DailyPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/DailyPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/LastMonthInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/LastMonthInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/LastMonthList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/LastMonthList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/LastMonthOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/LastMonthOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/LastMonthPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/LastMonthPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/MonthlyInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/MonthlyInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/MonthlyList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/MonthlyList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/MonthlyOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/MonthlyOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/MonthlyPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/MonthlyPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/ThisMonthInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/ThisMonthInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/ThisMonthList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/ThisMonthList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/ThisMonthOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/ThisMonthOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/ThisMonthPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/ThisMonthPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/TodayInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/TodayInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/TodayList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/TodayList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/TodayOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/TodayOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/TodayPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/TodayPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/YearlyInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/YearlyInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/YearlyList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/YearlyList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/YearlyOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/YearlyOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/YearlyPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/YearlyPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/YesterdayInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/YesterdayInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/YesterdayList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/YesterdayList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/YesterdayOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/YesterdayOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/YesterdayPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/Record/YesterdayPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/RecordInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/RecordInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/RecordList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/RecordList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/RecordOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/RecordOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/RecordPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/RecordPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/TriggerContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/TriggerContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/TriggerInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/TriggerInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/TriggerList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/TriggerList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/TriggerPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/Usage/TriggerPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/UsageInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/UsageInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/UsageList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/UsageList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/UsagePage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/UsagePage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ValidationRequestInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ValidationRequestInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ValidationRequestList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ValidationRequestList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ValidationRequestOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ValidationRequestOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ValidationRequestPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/ValidationRequestPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/AccountContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/AccountContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/AccountInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/AccountInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/AccountList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/AccountList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/AccountPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Api/V2010/AccountPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/CredentialContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/CredentialContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/CredentialInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/CredentialInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/CredentialList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/CredentialList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/CredentialOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/CredentialOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/CredentialPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/CredentialPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/Channel/MemberContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/Channel/MemberContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/Channel/MemberInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/Channel/MemberInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/Channel/MemberList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/Channel/MemberList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/Channel/MemberOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/Channel/MemberOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/Channel/MemberPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/Channel/MemberPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/Channel/MessageContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/Channel/MessageContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/Channel/MessageInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/Channel/MessageInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/Channel/MessageList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/Channel/MessageList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/Channel/MessageOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/Channel/MessageOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/Channel/MessagePage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/Channel/MessagePage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/ChannelContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/ChannelContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/ChannelInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/ChannelInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/ChannelList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/ChannelList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/ChannelOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/ChannelOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/ChannelPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/ChannelPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/RoleContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/RoleContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/RoleInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/RoleInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/RoleList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/RoleList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/RolePage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/RolePage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/UserContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/UserContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/UserInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/UserInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/UserList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/UserList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/UserPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/Service/UserPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/ServiceContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/ServiceContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/ServiceInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/ServiceInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/ServiceList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/ServiceList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/ServiceOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/ServiceOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/ServicePage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Chat/V1/ServicePage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Client.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Client.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/CredentialContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/CredentialContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/CredentialInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/CredentialInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/CredentialList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/CredentialList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/CredentialOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/CredentialOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/CredentialPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/CredentialPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/Channel/MemberContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/Channel/MemberContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/Channel/MemberInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/Channel/MemberInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/Channel/MemberList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/Channel/MemberList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/Channel/MemberOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/Channel/MemberOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/Channel/MemberPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/Channel/MemberPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/Channel/MessageContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/Channel/MessageContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/Channel/MessageInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/Channel/MessageInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/Channel/MessageList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/Channel/MessageList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/Channel/MessageOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/Channel/MessageOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/Channel/MessagePage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/Channel/MessagePage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/ChannelContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/ChannelContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/ChannelInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/ChannelInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/ChannelList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/ChannelList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/ChannelOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/ChannelOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/ChannelPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/ChannelPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/RoleContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/RoleContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/RoleInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/RoleInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/RoleList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/RoleList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/RolePage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/RolePage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/UserContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/UserContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/UserInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/UserInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/UserList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/UserList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/UserPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/Service/UserPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/ServiceContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/ServiceContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/ServiceInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/ServiceInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/ServiceList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/ServiceList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/ServiceOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/ServiceOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/ServicePage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/IpMessaging/V1/ServicePage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Lookups.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Lookups.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Lookups/V1.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Lookups/V1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Lookups/V1/PhoneNumberContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Lookups/V1/PhoneNumberContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Lookups/V1/PhoneNumberInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Lookups/V1/PhoneNumberInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Lookups/V1/PhoneNumberList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Lookups/V1/PhoneNumberList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Lookups/V1/PhoneNumberPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Lookups/V1/PhoneNumberPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Monitor.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Monitor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Monitor/V1.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Monitor/V1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Monitor/V1/AlertContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Monitor/V1/AlertContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Monitor/V1/AlertInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Monitor/V1/AlertInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Monitor/V1/AlertList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Monitor/V1/AlertList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Monitor/V1/AlertOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Monitor/V1/AlertOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Monitor/V1/AlertPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Monitor/V1/AlertPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Monitor/V1/EventContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Monitor/V1/EventContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Monitor/V1/EventInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Monitor/V1/EventInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Monitor/V1/EventList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Monitor/V1/EventList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Monitor/V1/EventOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Monitor/V1/EventOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Monitor/V1/EventPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Monitor/V1/EventPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/Messaging/CountryContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/Messaging/CountryContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/Messaging/CountryInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/Messaging/CountryInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/Messaging/CountryList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/Messaging/CountryList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/Messaging/CountryPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/Messaging/CountryPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/MessagingInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/MessagingInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/MessagingList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/MessagingList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/MessagingPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/MessagingPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/PhoneNumber/CountryContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/PhoneNumber/CountryContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/PhoneNumber/CountryInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/PhoneNumber/CountryInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/PhoneNumber/CountryList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/PhoneNumber/CountryList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/PhoneNumber/CountryPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/PhoneNumber/CountryPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/PhoneNumberInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/PhoneNumberInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/PhoneNumberList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/PhoneNumberList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/PhoneNumberPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/PhoneNumberPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/Voice/CountryContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/Voice/CountryContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/Voice/CountryInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/Voice/CountryInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/Voice/CountryList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/Voice/CountryList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/Voice/CountryPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/Voice/CountryPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/Voice/NumberContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/Voice/NumberContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/Voice/NumberInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/Voice/NumberInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/Voice/NumberList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/Voice/NumberList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/Voice/NumberPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/Voice/NumberPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/VoiceInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/VoiceInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/VoiceList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/VoiceList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/VoicePage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Pricing/V1/VoicePage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/ActivityContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/ActivityContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/ActivityInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/ActivityInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/ActivityList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/ActivityList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/ActivityOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/ActivityOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/ActivityPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/ActivityPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/EventContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/EventContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/EventInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/EventInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/EventList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/EventList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/EventOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/EventOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/EventPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/EventPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Task/ReservationContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Task/ReservationContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Task/ReservationInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Task/ReservationInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Task/ReservationList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Task/ReservationList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Task/ReservationOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Task/ReservationOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Task/ReservationPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Task/ReservationPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskChannelContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskChannelContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskChannelInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskChannelInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskChannelList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskChannelList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskChannelPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskChannelPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskQueue/TaskQueueStatisticsContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskQueue/TaskQueueStatisticsContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskQueue/TaskQueueStatisticsInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskQueue/TaskQueueStatisticsInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskQueue/TaskQueueStatisticsList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskQueue/TaskQueueStatisticsList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskQueue/TaskQueueStatisticsOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskQueue/TaskQueueStatisticsOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskQueue/TaskQueueStatisticsPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskQueue/TaskQueueStatisticsPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskQueue/TaskQueuesStatisticsInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskQueue/TaskQueuesStatisticsInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskQueue/TaskQueuesStatisticsList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskQueue/TaskQueuesStatisticsList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskQueue/TaskQueuesStatisticsOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskQueue/TaskQueuesStatisticsOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskQueue/TaskQueuesStatisticsPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskQueue/TaskQueuesStatisticsPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskQueueContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskQueueContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskQueueInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskQueueInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskQueueList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskQueueList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskQueueOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskQueueOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskQueuePage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/TaskQueuePage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/ReservationContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/ReservationContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/ReservationInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/ReservationInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/ReservationList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/ReservationList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/ReservationOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/ReservationOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/ReservationPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/ReservationPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/WorkerChannelContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/WorkerChannelContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/WorkerChannelInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/WorkerChannelInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/WorkerChannelList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/WorkerChannelList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/WorkerChannelOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/WorkerChannelOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/WorkerChannelPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/WorkerChannelPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/WorkerStatisticsContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/WorkerStatisticsContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/WorkerStatisticsInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/WorkerStatisticsInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/WorkerStatisticsList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/WorkerStatisticsList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/WorkerStatisticsOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/WorkerStatisticsOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/WorkerStatisticsPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/WorkerStatisticsPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/WorkersStatisticsContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/WorkersStatisticsContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/WorkersStatisticsInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/WorkersStatisticsInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/WorkersStatisticsList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/WorkersStatisticsList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/WorkersStatisticsOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/WorkersStatisticsOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/WorkersStatisticsPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Worker/WorkersStatisticsPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/WorkerContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/WorkerContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/WorkerInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/WorkerInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/WorkerList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/WorkerList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/WorkerPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/WorkerPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Workflow/WorkflowStatisticsContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Workflow/WorkflowStatisticsContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Workflow/WorkflowStatisticsInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Workflow/WorkflowStatisticsInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Workflow/WorkflowStatisticsList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Workflow/WorkflowStatisticsList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Workflow/WorkflowStatisticsOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Workflow/WorkflowStatisticsOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Workflow/WorkflowStatisticsPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/Workflow/WorkflowStatisticsPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/WorkflowContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/WorkflowContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/WorkflowInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/WorkflowInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/WorkflowList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/WorkflowList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/WorkflowOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/WorkflowOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/WorkflowPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/WorkflowPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/WorkspaceStatisticsContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/WorkspaceStatisticsContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/WorkspaceStatisticsInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/WorkspaceStatisticsInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/WorkspaceStatisticsList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/WorkspaceStatisticsList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/WorkspaceStatisticsOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/WorkspaceStatisticsOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/WorkspaceStatisticsPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/Workspace/WorkspaceStatisticsPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/WorkspaceContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/WorkspaceContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/WorkspaceInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/WorkspaceInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/WorkspaceList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/WorkspaceList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/WorkspaceOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/WorkspaceOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/WorkspacePage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Taskrouter/V1/WorkspacePage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/Trunk/CredentialListContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/Trunk/CredentialListContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/Trunk/CredentialListInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/Trunk/CredentialListInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/Trunk/CredentialListList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/Trunk/CredentialListList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/Trunk/CredentialListPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/Trunk/CredentialListPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/Trunk/IpAccessControlListContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/Trunk/IpAccessControlListContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/Trunk/IpAccessControlListInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/Trunk/IpAccessControlListInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/Trunk/IpAccessControlListList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/Trunk/IpAccessControlListList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/Trunk/IpAccessControlListPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/Trunk/IpAccessControlListPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/Trunk/OriginationUrlContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/Trunk/OriginationUrlContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/Trunk/OriginationUrlInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/Trunk/OriginationUrlInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/Trunk/OriginationUrlList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/Trunk/OriginationUrlList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/Trunk/OriginationUrlOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/Trunk/OriginationUrlOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/Trunk/OriginationUrlPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/Trunk/OriginationUrlPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/Trunk/PhoneNumberContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/Trunk/PhoneNumberContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/Trunk/PhoneNumberInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/Trunk/PhoneNumberInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/Trunk/PhoneNumberList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/Trunk/PhoneNumberList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/Trunk/PhoneNumberPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/Trunk/PhoneNumberPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/TrunkContext.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/TrunkContext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/TrunkInstance.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/TrunkInstance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/TrunkList.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/TrunkList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/TrunkOptions.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/TrunkOptions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/TrunkPage.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Rest/Trunking/V1/TrunkPage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Serialize.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Serialize.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Address/DependentPhoneNumberTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Address/DependentPhoneNumberTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/AddressTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/AddressTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/ApplicationTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/ApplicationTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/AuthorizedConnectAppTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/AuthorizedConnectAppTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/AvailablePhoneNumberCountry/LocalTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/AvailablePhoneNumberCountry/LocalTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/AvailablePhoneNumberCountry/MobileTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/AvailablePhoneNumberCountry/MobileTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/AvailablePhoneNumberCountry/TollFreeTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/AvailablePhoneNumberCountry/TollFreeTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/AvailablePhoneNumberCountryTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/AvailablePhoneNumberCountryTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Call/FeedbackSummaryTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Call/FeedbackSummaryTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Call/FeedbackTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Call/FeedbackTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Call/NotificationTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Call/NotificationTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Call/RecordingTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Call/RecordingTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/CallTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/CallTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Conference/ParticipantTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Conference/ParticipantTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/ConferenceTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/ConferenceTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/ConnectAppTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/ConnectAppTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/IncomingPhoneNumber/LocalTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/IncomingPhoneNumber/LocalTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/IncomingPhoneNumber/MobileTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/IncomingPhoneNumber/MobileTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/IncomingPhoneNumber/TollFreeTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/IncomingPhoneNumber/TollFreeTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/IncomingPhoneNumberTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/IncomingPhoneNumberTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/KeyTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/KeyTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Message/FeedbackTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Message/FeedbackTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Message/MediaTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Message/MediaTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/MessageTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/MessageTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/NewKeyTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/NewKeyTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/NewSigningKeyTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/NewSigningKeyTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/NotificationTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/NotificationTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/OutgoingCallerIdTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/OutgoingCallerIdTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Queue/MemberTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Queue/MemberTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/QueueTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/QueueTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Recording/TranscriptionTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Recording/TranscriptionTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/RecordingTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/RecordingTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/ShortCodeTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/ShortCodeTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/SigningKeyTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/SigningKeyTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Sip/CredentialList/CredentialTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Sip/CredentialList/CredentialTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Sip/CredentialListTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Sip/CredentialListTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Sip/Domain/CredentialListMappingTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Sip/Domain/CredentialListMappingTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Sip/Domain/IpAccessControlListMappingTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Sip/Domain/IpAccessControlListMappingTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Sip/DomainTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Sip/DomainTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Sip/IpAccessControlList/IpAddressTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Sip/IpAccessControlList/IpAddressTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Sip/IpAccessControlListTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Sip/IpAccessControlListTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/TokenTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/TokenTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/TranscriptionTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/TranscriptionTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Usage/Record/AllTimeTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Usage/Record/AllTimeTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Usage/Record/DailyTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Usage/Record/DailyTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Usage/Record/LastMonthTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Usage/Record/LastMonthTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Usage/Record/MonthlyTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Usage/Record/MonthlyTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Usage/Record/ThisMonthTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Usage/Record/ThisMonthTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Usage/Record/TodayTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Usage/Record/TodayTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Usage/Record/YearlyTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Usage/Record/YearlyTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Usage/Record/YesterdayTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Usage/Record/YesterdayTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Usage/RecordTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Usage/RecordTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Usage/TriggerTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/Usage/TriggerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/ValidationRequestTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/Account/ValidationRequestTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/AccountTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Api/V2010/AccountTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Chat/V1/CredentialTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Chat/V1/CredentialTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Chat/V1/Service/Channel/MemberTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Chat/V1/Service/Channel/MemberTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Chat/V1/Service/Channel/MessageTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Chat/V1/Service/Channel/MessageTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Chat/V1/Service/ChannelTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Chat/V1/Service/ChannelTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Chat/V1/Service/RoleTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Chat/V1/Service/RoleTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Chat/V1/Service/UserTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Chat/V1/Service/UserTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Chat/V1/ServiceTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Chat/V1/ServiceTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/IpMessaging/V1/CredentialTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/IpMessaging/V1/CredentialTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/IpMessaging/V1/Service/Channel/MemberTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/IpMessaging/V1/Service/Channel/MemberTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/IpMessaging/V1/Service/Channel/MessageTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/IpMessaging/V1/Service/Channel/MessageTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/IpMessaging/V1/Service/ChannelTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/IpMessaging/V1/Service/ChannelTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/IpMessaging/V1/Service/RoleTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/IpMessaging/V1/Service/RoleTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/IpMessaging/V1/Service/UserTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/IpMessaging/V1/Service/UserTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/IpMessaging/V1/ServiceTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/IpMessaging/V1/ServiceTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Lookups/V1/PhoneNumberTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Lookups/V1/PhoneNumberTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Monitor/V1/AlertTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Monitor/V1/AlertTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Monitor/V1/EventTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Monitor/V1/EventTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Pricing/V1/Messaging/CountryTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Pricing/V1/Messaging/CountryTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Pricing/V1/PhoneNumber/CountryTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Pricing/V1/PhoneNumber/CountryTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Pricing/V1/Voice/CountryTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Pricing/V1/Voice/CountryTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Pricing/V1/Voice/NumberTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Pricing/V1/Voice/NumberTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Taskrouter/V1/Workspace/ActivityTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Taskrouter/V1/Workspace/ActivityTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Taskrouter/V1/Workspace/EventTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Taskrouter/V1/Workspace/EventTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Taskrouter/V1/Workspace/Task/ReservationTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Taskrouter/V1/Workspace/Task/ReservationTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Taskrouter/V1/Workspace/TaskChannelTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Taskrouter/V1/Workspace/TaskChannelTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Taskrouter/V1/Workspace/TaskQueue/TaskQueueStatisticsTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Taskrouter/V1/Workspace/TaskQueue/TaskQueueStatisticsTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Taskrouter/V1/Workspace/TaskQueue/TaskQueuesStatisticsTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Taskrouter/V1/Workspace/TaskQueue/TaskQueuesStatisticsTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Taskrouter/V1/Workspace/TaskQueueTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Taskrouter/V1/Workspace/TaskQueueTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Taskrouter/V1/Workspace/TaskTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Taskrouter/V1/Workspace/TaskTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Taskrouter/V1/Workspace/Worker/ReservationTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Taskrouter/V1/Workspace/Worker/ReservationTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Taskrouter/V1/Workspace/Worker/WorkerChannelTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Taskrouter/V1/Workspace/Worker/WorkerChannelTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Taskrouter/V1/Workspace/Worker/WorkerStatisticsTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Taskrouter/V1/Workspace/Worker/WorkerStatisticsTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Taskrouter/V1/Workspace/Worker/WorkersStatisticsTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Taskrouter/V1/Workspace/Worker/WorkersStatisticsTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Taskrouter/V1/Workspace/WorkerTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Taskrouter/V1/Workspace/WorkerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Taskrouter/V1/Workspace/Workflow/WorkflowStatisticsTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Taskrouter/V1/Workspace/Workflow/WorkflowStatisticsTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Taskrouter/V1/Workspace/WorkflowTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Taskrouter/V1/Workspace/WorkflowTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Taskrouter/V1/Workspace/WorkspaceStatisticsTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Taskrouter/V1/Workspace/WorkspaceStatisticsTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Taskrouter/V1/WorkspaceTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Taskrouter/V1/WorkspaceTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Trunking/V1/Trunk/CredentialListTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Trunking/V1/Trunk/CredentialListTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Trunking/V1/Trunk/IpAccessControlListTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Trunking/V1/Trunk/IpAccessControlListTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Trunking/V1/Trunk/OriginationUrlTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Trunking/V1/Trunk/OriginationUrlTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Trunking/V1/Trunk/PhoneNumberTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Trunking/V1/Trunk/PhoneNumberTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Trunking/V1/TrunkTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Integration/Trunking/V1/TrunkTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Unit/Http/CurlClientTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Unit/Http/CurlClientTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Unit/Jwt/AccessTokenTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Unit/Jwt/AccessTokenTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Unit/SerializeTest.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/Unit/SerializeTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/phpunit.xml" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Tests/phpunit.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Values.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/Values.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/VersionInfo.php" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/Twilio/VersionInfo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/UPGRADE.md" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/UPGRADE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/twilio/sdk/VERSIONS.md" afterPath="$PROJECT_DIR$/vendor/twilio/sdk/VERSIONS.md" />
+    </list>
+    <ignored path="ilink.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="ilink" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test_sms.php" />
+        <option value="$PROJECT_DIR$/select/network.php" />
+        <option value="$PROJECT_DIR$/soon/index.html" />
+        <option value="$PROJECT_DIR$/select/delete.php" />
+        <option value="$PROJECT_DIR$/select/validation_simple.php" />
+        <option value="$PROJECT_DIR$/select/accept_membre.php" />
+        <option value="$PROJECT_DIR$/select/validation.php" />
+        <option value="$PROJECT_DIR$/test_mail.php" />
+        <option value="$PROJECT_DIR$/include/DB_Functions.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="72" />
+    <option name="y" value="22" />
+    <option name="width" value="1139" />
+    <option name="height" value="718" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ilink" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ilink" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ilink_remote" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8219ef02-e08b-4b8c-be17-6dac90c9a5cd" name="Default" comment="" />
+      <created>1475670888923</created>
+      <option name="number" value="Default" />
+      <updated>1475670888923</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="72" y="22" width="1139" height="718" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1750228" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18413857" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26332796" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1750228" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18413857" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26332796" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+</project>

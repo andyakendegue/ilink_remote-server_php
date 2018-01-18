@@ -1,27 +1,50 @@
 <?php
 
+if (isset($_SERVER['HTTP_ORIGIN'])) {
+    header("Access-Control-Allow-Origin: {$_SERVER['HTTP_ORIGIN']}");
+    header('Access-Control-Allow-Credentials: true');
+    header('Access-Control-Max-Age: 86400');    // cache for 1 day
+}
+
+// Access-Control headers are received during OPTIONS requests
+
+if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
+
+    if (isset($_SERVER['HTTP_ACCESS_CONTROL_REQUEST_METHOD']))
+        header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
+
+    if (isset($_SERVER['HTTP_ACCESS_CONTROL_REQUEST_HEADERS']))
+        header("Access-Control-Allow-Headers:        {$_SERVER['HTTP_ACCESS_CONTROL_REQUEST_HEADERS']}");
+
+    exit(0);
+    
+}
+
 $host='localhost';
-$uname='ilink';
-$pwd='ilink2016GA';
+$uname='root';
+$pwd='vps@2017GA';
 $db="ilink";
 
 $con = mysqli_connect($host,$uname,$pwd,$db) or die("connection failed");
-//mysql_select_db($db,$con) or die("db selection failed");
 
-$phone = $_POST['phone'];
+$postdata = file_get_contents("php://input");
 
+if(isset($postdata)) {
 
+  $request = json_decode($postdata);
+  
+}
 
+$phone = $request->phone;
 
-//$id=$_POST['id'];
 $r=mysqli_query($con,"select * from users_simple WHERE phone = '$phone'");
-while($row=mysqli_fetch_array($r, MYSQLI_ASSOC ))
-{
-        //$flag[name]=$row[name];
-        $rows[] = $row; 
-        //print_r($rows);
-        }
-        
+
+while($row=mysqli_fetch_array($r, MYSQLI_ASSOC )) {
+
+  $rows[] = $row;
+
+}
+
 print(json_encode($rows));
 
 mysqli_close($con);
