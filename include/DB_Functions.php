@@ -426,7 +426,8 @@ class DB_Functions {
     // connecting to mysql
 
     $con = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD,DB_DATABASE);
-    $result = mysqli_query($con,"SELECT phone from users WHERE phone = '$phone' AND category = '$category' ");
+    //$result = mysqli_query($con,"SELECT phone from users WHERE phone = '$phone' AND category = '$category' ");
+    $result = mysqli_query($con,"SELECT phone from users WHERE phone = '$phone'");
     $no_of_rows = mysqli_num_rows($result);
     if ($no_of_rows > 0) {
       // user existed
